@@ -1,0 +1,18 @@
+{
+  "name": "node-masterkeys",
+  "version": "1.0.0",
+  "description": "A node wrapper for the CoolerMaster Custom Lighting SDK for MasterKeys keyboards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "install": "node-gyp rebuild && copy .\\lib\\SDKDLL.dll .\\build\\Release\\SDKDLL.dll",
+    "jsdoc": "jsdoc index.js -d \"./docs\""
+  },
+  "author": "MrBBot",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.6.2"
+  }
+}
