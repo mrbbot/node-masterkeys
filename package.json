@@ -8,6 +8,7 @@
     "install": "node-gyp rebuild && copy .\\lib\\SDKDLL.dll .\\build\\Release\\SDKDLL.dll",
     "jsdoc": "jsdoc index.js -d \"./docs\""
   },
+  "repository": "mrbbot/node-masterkeys",
   "author": "MrBBot",
   "license": "ISC",
   "gypfile": true,
